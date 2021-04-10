@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.2/require.min.js"></script>
+
+        <link rel="stylesheet" href="global.css" />
+        <script src="bundle.js"></script>
+    </head>
+    <body>
+        <div id="root"></div>
+    </body>
+    <script>
+        requirejs.config({
+            paths: {
+                "react": "https://unpkg.com/react@15.3.2/dist/react",
+                "react-dom": "https://unpkg.com/react-dom@15.3.2/dist/react-dom",
+            },
+        });
+    </script>
+    <script>
+        requirejs(["index"]);
+    </script>
+</html>

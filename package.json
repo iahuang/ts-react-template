@@ -1,0 +1,12 @@
+{
+    "name": "ts-react-template",
+    "description": "A Typescript/React.js template project that doesn't use Webpack or Babel",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iahuang/ts-react-template.git"
+    },
+    "dependencies": {
+        "@types/react": "^17.0.3"
+    }
+}
