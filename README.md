@@ -15,4 +15,8 @@ The Typescript compiler has the ability to bundle multiple modules into a single
 
 ## Why?
 
-The recommended method for creating a React/TS project, namely [`create-react-app`](https://github.com/facebook/create-react-app) creates a template project with a lot of added complexity, primarily the dependency on Webpack. For simpler projects, one may not want to add these extra bells and whistles. This template project allows you to write React code more simply, without the need for preprocessors or bundlers.
+The recommended method for creating a React/TS project, namely [`create-react-app`](https://github.com/facebook/create-react-app), creates a template project with a lot of added complexity, primarily the dependency on Webpack. For simpler projects, one may not want to add these extra bells and whistles. This template project allows you to write React code more simply in a super lightweight manner, without the need for preprocessors or bundlers.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). This means you can copy and modify this project, for any purpose, both commercial and non-commercial.
