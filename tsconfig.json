@@ -3,7 +3,7 @@
         "target": "esnext",
         "module": "amd",
         "jsx": "react",
-        "outFile": "./build/bundle.js",
+        "outFile": "./static/bundle.js",
         "strict": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
